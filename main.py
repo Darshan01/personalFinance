@@ -1,14 +1,21 @@
 import datetime
 import csv
 from bofa import Bofa
-from discover import Discover
-from collections import defaultdict
+from discover import DiscoverCredit
+from financeReaders import FinanceReader
 
 def main():
-    dreader = Discover('./csv/discoverFeb.csv')
-    dreader.cutoffDate('02/02/2024')
-    dreader.categorize()
-    print(dreader.getSummaries())
+    dates = ("02/01/2024", "02/29/2024")
+    
+    dreader = DiscoverCredit('./csv/discover.csv', dates)
+    bofa = Bofa('./csv/bofa.csv', dates)
+    
+    combined = FinanceReader.combine(dreader, bofa)
+    
+    combined.printSpendingCategories(outPath="./output/spending.txt")
+    combined.printIncomeCategories(outPath="./output/income.txt")
+
+ 
 
 
 

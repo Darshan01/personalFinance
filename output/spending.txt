@@ -1,0 +1,50 @@
+Food
+------------------------------------------------------
+Transaction Date     Description               Amount
+02/01/2024           MOE'S ONLINE #            $12.78          
+02/02/2024           SQ *SZECHWAN I            $11.50          
+02/05/2024           MOE'S ONLINE #            $12.56          
+02/06/2024           OLIVE GARDEN Z            $30.10          
+02/06/2024           WEGMANS #032 W            $15.99          
+02/07/2024           MOE'S ONLINE #            $15.98          
+02/09/2024           MOE'S ONLINE #            $11.72          
+02/13/2024           WHOLEFDS MTC #            $53.30          
+02/16/2024           MOE'S ONLINE #            $13.63          
+02/19/2024           PITA & HUMMUS             $21.88          
+02/19/2024           TACO BELL 0390            $11.72          
+02/20/2024           GERLANDAS PIZZ            $13.00          
+02/21/2024           MOE'S ONLINE #            $13.63          
+02/21/2024           TST* EL JEFES             $11.20          
+02/22/2024           MOE'S ONLINE #            $13.63          
+02/23/2024           DUNKIN #302481            $2.02          
+02/23/2024           MOE'S ONLINE #            $13.63          
+02/23/2024           PITA & HUMMUS             $20.88          
+02/24/2024           ANGELOS PIZZA             $12.95          
+02/24/2024           LA BAGEL EDISO            $12.00          
+02/26/2024           GERLANDAS PIZZ            $5.00          
+02/26/2024           PITA & HUMMUS             $12.94          
+02/27/2024           INDIAN GROCERY            $13.98          
+02/27/2024           MOE'S ONLINE #            $11.72          
+02/28/2024           GERLANDAS PIZZ            $3.75          
+02/28/2024           SNACK* CAMBO B            $14.70          
+02/28/2024           SQ *SEOUL FRIE            $11.10          
+------------------------------------------------------
+Total:                                         $397.29
+
+Education
+------------------------------------------------------
+Transaction Date     Description               Amount
+02/02/2024           RUTGERS UNIVER            $20.00          
+02/29/2024           RUTGERS UNIVER            $20.00          
+------------------------------------------------------
+Total:                                         $40.00
+
+Gas
+------------------------------------------------------
+Transaction Date     Description               Amount
+02/26/2024           WAWA 8376 SOME            $11.07          
+------------------------------------------------------
+Total:                                         $11.07
+
+
+Grand Total:                                   $448.36
