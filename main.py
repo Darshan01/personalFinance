@@ -1,5 +1,3 @@
-import datetime
-import csv
 from bofa import Bofa
 from discover import DiscoverCredit
 from financeReaders import FinanceReader

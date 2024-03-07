@@ -1,6 +1,5 @@
 import csv
 import datetime
-from collections import defaultdict
 from financeReaders import FinanceReader
 
 class DiscoverCredit(FinanceReader):

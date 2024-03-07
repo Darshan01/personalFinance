@@ -1,9 +1,9 @@
 import csv
 import datetime
-from collections import defaultdict
 from financeReaders import FinanceReader
 
 class Bofa(FinanceReader):
+    #TODO fully implement categorization, hopefully with AI
     
     def __init__(self, file: str=None, dates: str|tuple=None):
         if file is None:
@@ -56,7 +56,7 @@ class Bofa(FinanceReader):
             if float(self._mainDict['Amount'][i].replace(",","")) > 0:
                 if "rutgers" in self._mainDict['Description'][i].lower():
                     self._income['Paychecks'].append([self._mainDict[key][i] for key in self._mainDict if key != 'Category'])
-            
+
             
         self._spendingSummaries = self.returnSummaries(self._spending)
         self._incomeSummaries = self.returnSummaries(self._income)
