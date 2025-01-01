@@ -5,7 +5,7 @@ This project takes csv files from various popular banks and categorizes them. Yo
 
 # Future Plans
 
-Add a user interface
+Add a graphical user interface
 
 Use artificial intelligence to categorize transactions
 
